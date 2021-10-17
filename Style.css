@@ -4,9 +4,21 @@
 
 .timeline{
     margin: 0 auto;
-    max-width: 750px;
     padding: 25px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-family: 'Roboto', Roboto;
+    position: relative;
     color: #ffff;
+}
+
+.timeline_content_title{
+    font-weight: normal;
+    font-size: 50px;
+    margin: -10px 0 0 0;
+    transition: 0.4s;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-family: Roboto;
 }

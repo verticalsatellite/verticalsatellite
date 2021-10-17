@@ -5,8 +5,11 @@
 }
 body{
     font-size:40px;
+<<<<<<< HEAD
     scroll-behavior: smooth; 
     background-color: blue;
+=======
+>>>>>>> 672648cc03ece213a2115c87be8325d6fce82f6d
 }
 section{
     height:650px;
@@ -14,6 +17,7 @@ section{
     justify-content:space-evenly;
     padding: 0 40px;
     align-items:center; 
+    background-color: blue;  
 }
 section h2{
     font-size:50px;

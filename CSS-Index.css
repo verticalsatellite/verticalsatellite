@@ -22,38 +22,3 @@ section p{
     font-weight:300;
 
 }
-#TITLE{
-    background-color:aliceblue;
-}
-#ABOUTUS{ 
-    background-color:red;
-}
-.scrolling{
-    height: 50px;
-    width: 30px;
-    border: 2px solid black;
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    border-radius: 50px;
-    cursor: pointer;
-}
-.scrolling::before,
-.scrolling::after{
-  content: '';
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  height: 10px;
-  width: 10px;
-  transform:translate(-50%, -100%) rotate(45deg);
-  border: 2px solid black;
-  border-top: transparent;
-  border-left: transparent;
-  animation: scroll-down 1s ease-in-out infinite;
-}
-.scrolling::before{
-  top: 30%;
-  animation-delay: .3s;
-  /* animation: scroll-down 1s ease-in-out infinite; */
-}

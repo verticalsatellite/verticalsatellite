@@ -7,6 +7,7 @@ body{
     font-size:40px;
     scroll-behavior: smooth;
     font-family:'Roboto'
+    align-items:center; 
 }
 section{
     height:800px;
@@ -24,3 +25,4 @@ section p{
     font-weight:300;
 
 }
+

@@ -11,6 +11,8 @@ body{
 section{
     height:800px;
     display:flex;
+    justify-content:space-evenly;
+    padding: 0 40px;
     align-items:center; 
 }
 section h2{

@@ -13,6 +13,29 @@
     color: #ffff;
 }
 
+.title1 {
+    font-size: 58px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+  .title2 {
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .title3 {
+    color: rgba(255, 255, 255, .5);
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    text-align: center;
+  }
+
 .timeline_content_title{
     font-weight: normal;
     font-size: 50px;
@@ -31,20 +54,6 @@
     line-height: 25px;
 }
 
-.timeline:before{
-    position: absolute;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    margin-left: -1px;
-    content: "";
-}
-
-@media only screen and (max-width: 777px){
-    .timeline:before{
-        left: 40px;
-    }
-}
 
 .timeline_item{
     padding: 40px 0;
@@ -55,21 +64,6 @@
     display:flex;
     position: relative;
     transform: translateY(-80px);
-}
-
-.timeline_item:before{
-    content:  attr(data-text);
-    letter-spacing: 3px;
-    width: 100%;
-    position: absolute;
-    font-size: 13px;
-    border-left: 2px solid rgba(255, 255, 255, 0.5);
-    top: 70%;
-    margin-top: -5px;
-    padding-left: 15px;
-    opacity: 0;
-    right: calc(-100%-55px);
-
 }
 
 .timeline_item:nth-child(even){
@@ -104,15 +98,3 @@
     margin-bottom: 80px;
     position: relative;
 }
-  .timeline_title_header {
-    font-size: 58px;
-    font-weight: normal;
-    margin: 0;
-}
-  .timeline_subtitle_header {
-    color: rgba(255, 255, 255, .5);
-    font-size: 16px;
-    letter-spacing: 5px;
-    margin: 10px 0 0 0;
-    font-weight: normal;
-  }

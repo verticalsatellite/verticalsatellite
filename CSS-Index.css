@@ -5,16 +5,10 @@
 }
 body{
     font-size:40px;
-    scroll-behavior: smooth;
-<<<<<<< HEAD
-    font-family:'Roboto'
-=======
-    font-family:'Roboto';
->>>>>>> dc5b1f151963946723a95fe01ca3700009aab031
-    align-items:center; 
+    scroll-behavior: smooth; 
 }
 section{
-    height:800px;
+    height:650px;
     display:flex;
     justify-content:space-evenly;
     padding: 0 40px;
@@ -27,6 +21,10 @@ section h2{
 }
 section p{
     font-weight:300;
-
+    margin-bottom: 15px;
+}
+section img{
+    height: 60%;
+    display:flex;
 }
 

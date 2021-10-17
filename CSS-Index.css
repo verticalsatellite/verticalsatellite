@@ -6,7 +6,11 @@
 body{
     font-size:40px;
     scroll-behavior: smooth;
+<<<<<<< HEAD
     font-family:'Roboto'
+=======
+    font-family:'Roboto';
+>>>>>>> dc5b1f151963946723a95fe01ca3700009aab031
     align-items:center; 
 }
 section{

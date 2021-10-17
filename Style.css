@@ -1,2 +1,12 @@
 ﻿body {
+    background: #8790A8;
+}
+
+.timeline{
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    font-family: 'Roboto', Roboto;
+    color: #ffff;
 }

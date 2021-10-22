@@ -61,12 +61,12 @@
 
 .t1-item:after{
     background: #8790A8;
-    opacity: 1;
+    opacity: 0.5;
     transition: opacity 0.5s ease;
 }
 
 .t1-item:before{
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 80%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
     z-index: 1;
     opacity: 0;
     transform: translate3d(0,0,0) translateY(50%);
@@ -75,7 +75,7 @@
 }
 
 .t1-item:hover{
-    width: 30% !important;
+    width: 45% !important;
 }
 
 .t1-item:hover:after{
@@ -91,7 +91,7 @@
 .t1-item:hover .t1-content{
     opacity: 1;
     transform: translateY(0);
-    transition: all 075s ease 0.5s;
+    transition: all 0.65s ease 0.5s;
 }
 
 .t1-item:hover .t1-bg{
@@ -138,5 +138,5 @@
     background-size: cover;
     background-position: center center;
     transition: filter 0.5s ease;
-    filter: grayscale(100%);
+    filter: grayscale(75%);
 }

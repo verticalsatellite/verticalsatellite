@@ -35,11 +35,11 @@
     background-color: #3B4A75;
 }
 
-#timeline:hover .t1-item{
+#timeline:hover .timeline-item{
     width: 23.3333%;
 }
 
-.t1-item{
+.timeline-item{
     transform: translate3d(0,0,0);
     position: relative;
     width: 25%;
@@ -49,7 +49,7 @@
     transition: width 0.5s ease;
 }
 
-.t1-item:before, .t1-item:after{
+.timeline-item:before, .t1-item:after{
     transform: translate3d(0,0,0);
     content:'';
     position: absolute;
@@ -59,13 +59,13 @@
     height: 100%;
 }
 
-.t1-item:after{
+.timeline-item:after{
     background: #8790A8;
     opacity: 0.5;
     transition: opacity 0.5s ease;
 }
 
-.t1-item:before{
+.timeline-item:before{
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
     z-index: 1;
     opacity: 0;
@@ -74,31 +74,31 @@
     transform 0.5s ease;
 }
 
-.t1-item:hover{
-    width: 45% !important;
+.timeline-item:hover{
+    width: 40% !important;
 }
 
-.t1-item:hover:after{
+.timeline-item:hover:after{
     opacity: 0;
 }
 
-.t1-item:hover:before{
+.timeline-item:hover:before{
     opacity: 1;
     transform: translate3d(0,0,0) translateY(0);
     transition: opacity 1s ease, transform 1s ease 0.25s;
 }
 
-.t1-item:hover .t1-content{
+.timeline-item:hover .timeline-content{
     opacity: 1;
     transform: translateY(0);
     transition: all 0.65s ease 0.5s;
 }
 
-.t1-item:hover .t1-bg{
+.timeline-item:hover .timeline-bg{
     filter: grayscale(0);
 }
 
-.t1-content{
+.timeline-content{
     transform: translate3d(0,0,0) translateY(25px);
     position: relative;
     z-index: 1;
@@ -108,13 +108,13 @@
     opacity: 0;
 }
 
-.t1-content h2{
+.timeline-content h2{
     text-transform: uppercase;
     font-size: 1.44rem;
     font-weight: normal;
 }
 
-.t1-year{
+.timeline-year{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -124,11 +124,11 @@
     border-bottom: 1px solid white;
 }
 
-.t1-year p{
+.timeline-year p{
     font-size: 1.628rem;
     line-height: 0;
 }
-.t1-bg{
+.timeline-bg{
     transform: translate3d(0,0,0);
     position: absolute;
     width: 100%;

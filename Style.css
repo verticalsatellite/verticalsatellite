@@ -7,6 +7,14 @@
     margin: 0;
 }
 
+.menu{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 20% ;
+    background-color: #8790A8;
+    text-align: right;
+}
+
 .title1 {
     font-size: 58px;
     font-weight: bold;
@@ -124,9 +132,9 @@
     border-bottom: 1px solid white;
 }
 
-.timeline-year p{
+.timeline-year h1{
     font-size: 1.628rem;
-    line-height: 0;
+    line-height: 1.25;
 }
 .timeline-bg{
     transform: translate3d(0,0,0);

@@ -1,0 +1,10 @@
+STYLE GUIDELINES
+Color theme: Scale of bluish-grays 
+              - #8790A8: "Dark purple gray"
+              - #3B4A75: "Blue"
+              - #C5D7DB: "Gray"
+Typography: Roboto
+
+Company Name: BOLD/UPPER CASE->Sesigned logotype  
+All titles in uppercase
+When you pass the mouse through the menu or a title it gets shadowed 

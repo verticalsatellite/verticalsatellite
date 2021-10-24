@@ -16,6 +16,11 @@ a {
     text-decoration:none;
     box-shadow:3px 3px 5px black; 
     text-align: left;
+    transition: margin 0.35s, background-color 0.35s;
+    position: fixed;
+    top:0;
+    height:65px;
+    width: 100%;
    }
 
 .title1 {

@@ -13,7 +13,6 @@
     font-weight: bold;
     margin: 0;
     text-align: center;
-    position:absolute;
 }
   .title2 {
     color: rgba(255, 255, 255, .5);
@@ -22,7 +21,6 @@
     margin: 10px 0 0 0;
     font-weight: normal;
     text-align: center;
-    position:absolute;
   }
 
   .title3 {
@@ -31,7 +29,6 @@
     margin: 10px 0 0 0;
     font-weight: normal;
     text-align: center;
-    position:absolute;
   }
 
   /*------------NavBar-----------*/
@@ -44,7 +41,6 @@ a {
     padding:10px 10px;
     text-decoration:none;
     top:0;
-    position:absolute;
    }
 #a1:hover{
     box-shadow:3px 3px 5px black; 

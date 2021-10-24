@@ -17,23 +17,15 @@ a {
     top:0;
    }
 #a1:hover{
-    color:#3B4A75; 
-    background:#8790A8;
     box-shadow:3px 3px 5px black; 
 }
 #a2:hover{
-    color:#3B4A75; 
-    background:#8790A8;
     box-shadow:3px 3px 5px black; 
 }
-#a3:hover{
-    color:#3B4A75; 
-    background:#8790A8;    
+#a3:hover{    
     box-shadow:3px 3px 5px black; 
 }
 #a4:hover{
-    color:#3B4A75; 
-    background:#8790A8;
     box-shadow:3px 3px 5px black; 
 }
 

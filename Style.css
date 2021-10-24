@@ -1,4 +1,4 @@
-﻿body {
+body {
     background: #3B4A75;
     color: #ffff;
     line-height: 1.5;
@@ -10,7 +10,7 @@ a {
     font-size: 25px;
     color:#8790A8;
     background:#C5D7DB;
-    display:flex;
+    display:inline-flex;
     border:2px solid #3B4A75;
     padding:10px 10px;
     text-decoration:none;
@@ -22,6 +22,11 @@ a {
     height:65px;
     width: 100%;
    }
+#a0:hover{
+  /*background-color: #ebebeb;*/
+  border-bottom: 4px solid #00c8aa;
+  transition: border-bottom 0.25s ;
+}
 
 .title1 {
     font-size: 58px;

@@ -15,11 +15,8 @@ a,button {
     padding:10px 10px;
     text-decoration:none;
     box-shadow:3px 3px 5px black; 
-    text-align:left;
    }
-a,button:hover{
-    box-shadow:3px 3px 5px black;
-}
+
 .title1 {
     font-size: 58px;
     font-weight: bold;

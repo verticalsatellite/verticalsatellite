@@ -71,23 +71,28 @@ a {
 
   /*------------Landing-----------*/
 section{
-    width:100%;
-    height:100vh;
+    height:650px;
     display:flex;
     flex-direction:column;
     padding: 0 40px; 
     margin: 0;
 }
 section img{
-    
+    display:flex;
+    padding: 0 40px;
 }
 section:nth-child(1){
     text-align:center; 
     align-items:center;
 }
-section#TITLE{
-    background:src=("Images/chip.jpg") no-repeat center center /
-    cover;
+#TITLE .TITLE{
+    position:reltive;
+}
+#TITLE .image1 {
+    max-width:100%;
+    position:absolute;
+    top: 0;
+    left: 0; 
 }
 section:nth-child(2){
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);;

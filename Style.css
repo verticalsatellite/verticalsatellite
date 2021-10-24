@@ -57,19 +57,19 @@ a {
 
   /*------------Landing-----------*/
 section img{
-    height:60%;
+    height:80%;
     display:flex;
     padding: 0 40px;
     align-items:center; 
 }
 section:nth-child(1){
-    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    background-image: #3B4A75;
   }
 section:nth-child(2){
-    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+    background-image: #8790A8;
 }
 section:nth-child(3){
-    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+    background-image: #3B4A75;
 }
 
   /*------------Future-----------*/

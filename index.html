@@ -1,77 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>VerticalSatellite</title>
-
-        <link rel="stylesheet" href="Style.css">
-    </head>
-    <body id="Landing Page">
-        <div id="NavBar">
-            <div class="NavBar">
-                <a id="a1" href="index.html">HOME</a>
-                <a id="a2" href="Future.html">FUTURE PLANS</a>
-                <a id="a3" href="Team.html">TEAM</a>
-                <a id="a4" href="Contact.html">CONTACT</a>
-              </div>
+<html lang="en" dir="ltr">
+  <head>
+    <title>VerticalSatellite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+  </head>
+  <body>
+    <div id="NavBar">
+        <div class="NavBar">
+            <a id="a1" href="index.html">HOME</a>
+            <a id="a2" href="Future.html">FUTURE PLANS</a>
+            <a id="a3" href="Team.html">TEAM</a>
+            <a id="a4" href="Contact.html">CONTACT</a>
+          </div>
+    </div>
+    <section>
+      <h1>VerticalSatellite</h1>
+    </section>
+    <section>
+      <div class="container reveal">
+        <h2>ABOUT US</h2>
+        <div class="boxes">
+          <div class="text-box">
+            <p>VerticalSatellite allows users to experience internet a it fastest by introducing the opportunity to benefit from <strong>satellital internet</strong> wherever they are. The Vertical chip can be installed in all mobile devices so there is no need to install a special kit at home.</p>
+          </div>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="container reveal">
+        <h2>HOW DOES IT WORK?</h2>
+        <div class="boxes">
+          <div class="text-box">
+            <p>Satellital connection is based on cooperations 
+                with existing space organizations such as NASA.
+                
+                Furtheremore, several agreements have been made with phone and laptop 
+                manufacturers to install our chip in their devices so that our service 
+                can be provided.
+                
+                It must be noted that the entreprises reserve the right to decide how they offer the service
+                (contrats, insurance, plan). Please check you internet provider's webpage to know more details. </p>
+          </div>
+        </div>
+      </div>
 
-        <section id="TITLE">
-            <div class="TITLE">
-                <h1>VerticalSatellite</h1>
-            </div>
-        </section>
-        
-        
-        <section id="ABOUT-US">
-            <div class="title2">
-                <h2>ABOUT US</h2>
-                </div>
-                <div class="content_description">
-                <p>VerticalSatellite allows users to experience internet a it fastest
-                    by introducing the opportunity to benefit
-                    from <strong>satellital internet</strong> wherever they are. The Vertical 
-                    chip can be installed in all mobile devices so there is no need to install 
-                    a special kit at home.</p>
-                   
-                </div>  
-        </section>
 
-        <section id="HOW-DOES-IT-WORK">
-            <div class="tiltle2">
-                <h2>HOW DOES IT WORK?</h2>
-                </div>
-                <div class="content_description">
-                <p>Satellital connection is based on cooperations 
-                    with existing space organizations such as NASA.
-                    
-                    Furtheremore, several agreements have been made with phone and laptop 
-                    manufacturers to install our chip in their devices so that our service 
-                    can be provided.
-                    
-                    It must be noted that the entreprises reserve the right to decide how they offer the service
-                    (contrats, insurance, plan). Please check you internet provider's webpage to know more details. 
-                    </p>
-                </div>  
-        </section>
-       
-        <script> type="text/javascript"
-       window.adddEvenListener('scroll',reveal); 
-       
-       function reveal(){
-           var reveals=document.querySelectorAll('')
-           for(var i=0;i<reveals.lenght;i++){
-               var windowheight=window.innerHeight;
-               var revealtop=reveals[i].getBoundingClientRect().top;
-               var revealpoint=150;
-
-               if(revealtop<windowheight-revealpoint){
-                   reveals[i].classlist.add('active');
-               }
-               else{
-                   reveals[i].classList.remove('active');
-               }
-           }
-       }
-        </script>
-    </body>
+  </body>
 </html>

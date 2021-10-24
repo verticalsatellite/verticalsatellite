@@ -56,25 +56,20 @@ a {
 }
 
   /*------------Landing-----------*/
-.image1{
-    height:100vh;
-    width:100vw;
-    position:relative;
-    background-size: cover;
-    background-position:50% 50%; 
-}
-.TITLE{
-    position: absolute;
-    height:100%;
-    width:100%;
-    background:rgba(0,0,0,5);
-    color:white;
+section img{
+    height:60%;
     display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    top:0;
-    left:0; 
+    padding: 0 40px;
+    align-items:center; 
+}
+section:nth-child(1){
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  }
+section:nth-child(2){
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+section:nth-child(3){
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
 }
 
   /*------------Future-----------*/

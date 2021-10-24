@@ -27,6 +27,26 @@ a {
   border-bottom: 4px solid #8790A8;
   transition: border-bottom 0.25s ;
 }
+#a1:hover{
+    /*background-color: #ebebeb;*/
+    border-bottom: 4px solid #8790A8;
+    transition: border-bottom 0.25s ;
+}
+#a2:hover{
+    /*background-color: #ebebeb;*/
+    border-bottom: 4px solid #8790A8;
+    transition: border-bottom 0.25s ;
+}
+#a3:hover{
+    /*background-color: #ebebeb;*/
+    border-bottom: 4px solid #8790A8;
+    transition: border-bottom 0.25s ;
+}
+#a4:hover{
+    /*background-color: #ebebeb;*/
+    border-bottom: 4px solid #8790A8;
+    transition: border-bottom 0.25s ;
+}
 
 .title1 {
     font-size: 58px;

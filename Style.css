@@ -8,6 +8,7 @@
     margin: 0;
 }
   .title1 {
+    color:white; 
     font-size: 58px;
     font-weight: bold;
     margin: 0;
@@ -79,21 +80,21 @@ a {
     left:0;
   }
   section:nth-child(2){
-    color:blue;
+    background:blue;
     min-height:100vh;
     display:flex; 
     justify-content: center;
     align-items: center;
   }
 section:nth-child(3){
-    color:white;
+    background:white;
     min-height:100vh;
     display:flex; 
     justify-content: center;
     align-items: center;
 }
 section:nth-child(4){
-    color:gray; 
+    background:gray; 
     min-height:100vh;
     display:flex; 
     justify-content: center;

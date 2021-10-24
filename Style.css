@@ -34,8 +34,8 @@
   /*------------NavBar-----------*/
 a {
     font-size: 25px;
-    color:#8790A8;
-    background:#C5D7DB;
+    color:white; 
+    background:#3B4A75;
     display:inline-flex;
     border:0px;
     padding:10px 10px;

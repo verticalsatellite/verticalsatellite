@@ -61,6 +61,7 @@ section img{
     display:flex;
     padding: 0 40px;
     align-items:center; 
+    margin: 0;
 }
 section:nth-child(1){
   }

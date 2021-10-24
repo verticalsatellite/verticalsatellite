@@ -18,9 +18,7 @@
         <section id="TITLE">
             <div class="TITLE">
                 <h1>VerticalSatellite</h1>
-      
             </div>
-            <img src="Images/chip.jpg" class="image1"> 
         </section>
         
         
@@ -36,7 +34,6 @@
                     a special kit at home.</p>
                    
                 </div>  
-                <img src="Images/world.svg" class="image2">
         </section>
 
         <section id="HOW-DOES-IT-WORK">
@@ -55,7 +52,6 @@
                     (contrats, insurance, plan). Please check you internet provider's webpage to know more details. 
                     </p>
                 </div>  
-                <img src="Images/connection.svg" class="image3">
         </section>
        
         <script> type="text/javascript"
@@ -63,6 +59,18 @@
        
        function reveal(){
            var reveals=document.querySelectorAll('')
+           for(var i=0;i<reveals.lenght;i++){
+               var windowheight=window.innerHeight;
+               var revealtop=reveals[i].getBoundingClientRect().top;
+               var revealpoint=150;
+
+               if(revealtop<windowheight-revealpoint){
+                   reveals[i].classlist.add('active');
+               }
+               else{
+                   reveals[i].classList.remove('active');
+               }
+           }
        }
         </script>
     </body>

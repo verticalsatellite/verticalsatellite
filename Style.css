@@ -70,49 +70,30 @@ a {
 }
 
   /*------------Landing-----------*/
-<<<<<<< HEAD
-section:nth-child(2){
-    background:blue;
-    min-height:100vh;
-    display:flex; 
-    justify-content: space-evenly;
-    align-items: center;
-    height:700px;
-    position:absolute;
-    padding:0 40px;
-=======
-section img{
-    height:675px;
+section{
+    width:100%;
+    height:100vh;
     display:flex;
-    padding: 0 40px;
-    align-items:center; 
+    flex-direction:column;
+    padding: 0 40px; 
     margin: 0;
 }
+section img{
+    
+}
 section:nth-child(1){
->>>>>>> ed978f926d3c42b36e4df02c3537ffc61599ca6e
-  }
+    text-align:center; 
+    align-items:center;
+}
+section#TITLE{
+    background:src=("Images/chip.jpg") no-repeat center center /
+    cover;
+}
 section:nth-child(2){
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);;
 }
 section:nth-child(3){
-<<<<<<< HEAD
-    background:white;
-    min-height:100vh;
-    display:flex; 
-    justify-content: center;
-    align-items: center;
-    height:700px;
-}
-section:nth-child(4){
-    background:gray; 
-    min-height:100vh;
-    display:flex; 
-    justify-content: center;
-    align-items: center;
-    height:700px;
-=======
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
->>>>>>> ed978f926d3c42b36e4df02c3537ffc61599ca6e
 }
 
   /*------------Future-----------*/

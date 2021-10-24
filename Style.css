@@ -17,27 +17,25 @@ a {
     box-shadow:3px 3px 5px black; 
     text-align: left;
     transition: margin 0.35s, background-color 0.35s;
-    position: fixed;
-    top:0;
    }
 #a0:hover{
-  border-bottom: 4px solid #8790A8;
+  border-bottom: 10px solid #3B4A75;
   transition: border-bottom 0.25s ;
 }
 #a1:hover{
-    border-bottom: 4px solid #8790A8;
+    border-bottom: 10px solid #3B4A75;
     transition: border-bottom 0.25s ;
 }
 #a2:hover{
-    border-bottom: 4px solid #8790A8;
+    border-bottom: 10px solid #3B4A75;
     transition: border-bottom 0.25s ;
 }
 #a3:hover{
-    border-bottom: 4px solid #8790A8;
+    border-bottom: 10px solid #3B4A75;
     transition: border-bottom 0.25s ;
 }
 #a4:hover{
-    border-bottom: 4px solid #8790A8;
+    border-bottom: 10px solid #3B4A75;
     transition: border-bottom 0.25s ;
 }
 

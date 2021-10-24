@@ -47,9 +47,7 @@ a {
     padding:10px 10px;
     text-decoration:none;
     top:0;
-    float:right;
-    height:100%;
-    width: 20%;
+    position:right;
     margin:0;
    }
 #a1:hover{

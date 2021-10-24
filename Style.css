@@ -72,12 +72,35 @@ section img{
     margin: 0;
 }
 section:nth-child(1){
+   
   }
 section:nth-child(2){
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    position: absolute;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,5);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    top:0;
+    left:0; 
 }
 section:nth-child(3){
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    position: absolute;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,5);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    top:0;
+    left:0; 
 }
 
   /*------------Future-----------*/

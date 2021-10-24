@@ -15,26 +15,26 @@ a {
     padding:10px 10px;
     text-decoration:none;
     box-shadow:3px 3px 5px black; 
-    text-align: left;
+    text-align: right;
     transition: margin 0.35s, background-color 0.35s;
 <<<<<<< HEAD
     position: fixed;
     top:0;
    }
 #a1:hover{
-    border-bottom: 4px solid #8790A8;
+    background:#8790A8;
     transition: border-bottom 0.25s ;
 }
 #a2:hover{
-    border-bottom: 4px solid #8790A8;
+    background:#8790A8;
     transition: border-bottom 0.25s ;
 }
 #a3:hover{
-    border-bottom: 4px solid #8790A8;
+    background:#8790A8;
     transition: border-bottom 0.25s ;
 }
 #a4:hover{
-    border-bottom: 4px solid #8790A8;
+    background:#8790A8;
     transition: border-bottom 0.25s ;
 =======
 >>>>>>> 9f433a95071eb1ef7d73f9ef303c7fb77a16a9b5

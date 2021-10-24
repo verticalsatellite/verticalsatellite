@@ -64,10 +64,8 @@ a {
 }
 
   /*------------Landing-----------*/
-section{
-   height:675px; 
-}
 section img{
+    height:675px;
     display:flex;
     padding: 0 40px;
     align-items:center; 

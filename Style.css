@@ -1,20 +1,13 @@
-﻿body {
+ /*--------General elements-----------*/ 
+ body {
     background: #3B4A75;
     color: #ffff;
     line-height: 1.5;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    flex-direction:column;
 }
-
-.menu{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0 20% ;
-    background-color: #8790A8;
-    text-align: right;
-}
-
 .title1 {
     font-size: 58px;
     font-weight: bold;
@@ -23,7 +16,7 @@
 }
   .title2 {
     color: rgba(255, 255, 255, .5);
-    font-size: 18px;
+    font-size: 40px;
     letter-spacing: 3px;
     margin: 10px 0 0 0;
     font-weight: normal;
@@ -32,12 +25,51 @@
 
   .title3 {
     color: rgba(255, 255, 255, .5);
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px 0 0 0;
     font-weight: normal;
     text-align: center;
   }
 
+   .content_description{
+     font-size:30px;
+     flex-direction:column;
+     display:flex;
+}
+
+  /*------------NavBar-----------*/
+a {
+    font-size: 25px;
+    color:white; 
+    background:#3B4A75;
+    display:inline-flex;
+    border:0px;
+    padding:10px 10px;
+    text-decoration:none;
+    top:0;
+    height:34%;
+    margin:0;
+    top:0;   
+    bottom:0;
+   }
+#a1:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black;  
+}
+#a2:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+#a3:hover{  
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+#a4:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+
+  /*------------Future-----------*/
 #timeline{
     display: flex;
     background-color: #3B4A75;
@@ -81,6 +113,7 @@
     transition: opacity 0.5s ease, 
     transform 0.5s ease;
 }
+
 
 .timeline-item:hover{
     width: 40% !important;
@@ -135,6 +168,7 @@
 .timeline-year h1{
     font-size: 1.628rem;
     line-height: 1.25;
+
 }
 .timeline-bg{
     transform: translate3d(0,0,0);

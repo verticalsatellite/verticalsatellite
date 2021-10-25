@@ -185,7 +185,7 @@ section .boxes .text-box{
 }
 
 .t1-item:hover{
-    width: 45% !important;
+    width: 40% !important;
 }
 
 .t1-item:hover:after{
@@ -235,7 +235,7 @@ section .boxes .text-box{
 }
 
 .t1-year p{
-    font-size: 1.628rem;
+    font-size: 1.500em;
     line-height: 0;
 }
 .t1-bg{

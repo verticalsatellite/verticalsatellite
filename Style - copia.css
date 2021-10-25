@@ -1,0 +1,252 @@
+ /*--------General elements-----------*/ 
+ body {
+    background: #3B4A75;
+    color: #ffff;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    flex-direction:column;
+}
+  .title1 {
+    color:white; 
+    font-size: 58px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+  .title2 {
+    color: rgba(255, 255, 255, .5);
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .title3 {
+    color: rgba(255, 255, 255, .5);
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .TITLE{
+    color:white; 
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center
+  }
+
+   .content_description{
+     font-size:30px;
+     flex-direction:column;
+     display:flex;
+}
+
+  /*------------NavBar-----------*/
+a {
+    font-size: 25px;
+    color:white; 
+    background:#3B4A75;
+    display:inline-flex;
+    border:0px;
+    padding:10px 10px;
+    text-decoration:none;
+    top:0;
+    height:34%;
+    margin:0;
+    top:0;   
+    bottom:0;
+   }
+#a1:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black;  
+}
+#a2:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+#a3:hover{  
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+#a4:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+
+  /*------------Landing-----------*/
+section {
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+section:nth-child(1){
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  }
+section:nth-child(2){
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+section:nth-child(3){
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+section .container{
+    margin:100px;
+}
+
+section h1{
+    font-size:100px;
+}
+
+section h2{
+    font-size:60px;
+    text-align:center;
+    text-transform: uppercase; 
+    color:white;
+}
+section p{
+    font-size:30px;
+    text-align:center;
+    color:white;
+}
+
+section .boxes{
+    display:flex; 
+}
+
+section .boxes .text-box{
+    background:#8790A8; 
+    opacity:3;
+    margin:20px;
+    padding:20px;
+    box-shadow:5px 5px 20px black; 
+    border-radius:6px;
+}
+
+.reveal{
+    position:relative;
+    transform:translateY(75px);
+    opacity: 0;
+}
+.reveal.active{
+    transform:translateY(0px);
+    opacity: 50;
+    transition: all 2s ease;  
+} 
+
+  /*------------Future-----------*/
+#timeline{
+    display: flex;
+    background-color: #3B4A75;
+}
+
+#timeline:hover .t1-item{
+    width: 23.3333%;
+}
+
+.t1-item{
+    transform: translate3d(0,0,0);
+    position: relative;
+    width: 25%;
+    height: 100vh;
+    min-height: 600px;
+    overflow: hidden;
+    transition: width 0.5s ease;
+}
+
+.t1-item:before, .t1-item:after{
+    transform: translate3d(0,0,0);
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.t1-item:after{
+    background: #8790A8;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.t1-item:before{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
+    z-index: 1;
+    opacity: 0;
+    transform: translate3d(0,0,0) translateY(50%);
+    transition: opacity 0.5s ease, 
+    transform 0.5s ease;
+}
+
+.t1-item:hover{
+    width: 45% !important;
+}
+
+.t1-item:hover:after{
+    opacity: 0;
+}
+
+.t1-item:hover:before{
+    opacity: 1;
+    transform: translate3d(0,0,0) translateY(0);
+    transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+
+.t1-item:hover .t1-content{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.65s ease 0.5s;
+}
+
+.t1-item:hover .t1-bg{
+    filter: grayscale(0);
+}
+
+.t1-content{
+    transform: translate3d(0,0,0) translateY(25px);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 0.1618em;
+    top: 55%;
+    opacity: 0;
+}
+
+.t1-content h2{
+    text-transform: uppercase;
+    font-size: 1.44rem;
+    font-weight: normal;
+}
+
+.t1-year{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.t1-year p{
+    font-size: 1.628rem;
+    line-height: 0;
+}
+.t1-bg{
+    transform: translate3d(0,0,0);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(75%);
+}

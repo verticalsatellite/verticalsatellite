@@ -32,14 +32,6 @@
     text-align: center;
   }
 
-  .TITLE{
-    color:white; 
-    font-size: 80px;
-    font-weight: bold;
-    margin: 0;
-    text-align: center
-  }
-
    .content_description{
      font-size:30px;
      flex-direction:column;
@@ -77,67 +69,6 @@ a {
     text-align: center;
     box-shadow:3px 3px 5px black; 
 }
-
-  /*------------Landing-----------*/
-section {
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center; 
-}
-section:nth-child(1){
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-  }
-section:nth-child(2){
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-}
-section:nth-child(3){
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-}
-
-section .container{
-    margin:100px;
-}
-
-section h1{
-    font-size:100px;
-}
-
-section h2{
-    font-size:60px;
-    text-align:center;
-    text-transform: uppercase; 
-    color:white;
-}
-section p{
-    font-size:30px;
-    text-align:center;
-    color:white;
-}
-
-section .boxes{
-    display:flex; 
-}
-
-section .boxes .text-box{
-    background:#8790A8; 
-    opacity:3;
-    margin:20px;
-    padding:20px;
-    box-shadow:5px 5px 20px black; 
-    border-radius:6px;
-}
-
-.reveal{
-    position:relative;
-    transform:translateY(75px);
-    opacity: 0;
-}
-.reveal.active{
-    transform:translateY(0px);
-    opacity: 50;
-    transition: all 2s ease;  
-} 
 
   /*------------Future-----------*/
 #timeline{

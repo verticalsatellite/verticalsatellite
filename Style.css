@@ -165,11 +165,12 @@ a {
     position: absolute;
     background-color: transparent;
     top: 50%;
-    right: 0.5%
-
+    right: 0.5%;
 }
+
 .page-transition1:hover img{
-    box-shadow: 1px 1px 1px 1px black;
+    content: url("Images/arrow_black_rotated.png");
+
 }
 
 .page-transition2 img{
@@ -177,4 +178,8 @@ a {
     background-color: transparent;
     top: 50%;
     left: 0.5%
+}
+
+.page-transition2:hover img{
+    content: url("Images/arrow_black.png");
 }

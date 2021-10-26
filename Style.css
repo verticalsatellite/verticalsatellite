@@ -47,7 +47,7 @@ a {
     box-shadow:3px 3px 5px black; 
 }
 
-  /*------------Future-----------*/
+/*------------Future-----------*/
 #timeline{
     display: flex;
     background-color: #3B4A75;
@@ -183,3 +183,34 @@ a {
 .page-transition2:hover img{
     content: url("Images/arrow_black.png");
 }
+
+/*------------Footer-----------*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+  }
+
+  .company-name-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  .footer-content-social{
+    position: fixed;
+    left: 0;
+    bottom: 20;
+
+  }
+
+  .footer-content-pages{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+  }

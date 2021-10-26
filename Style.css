@@ -38,6 +38,46 @@ body {
   display: flex;
 }
 
+.menu {
+  background-color: #3b4a75;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.cntBody {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #8790a8;
+}
+
+.cntCore {
+  box-sizing: border-box;
+  width: max-content;
+  margin-left: 20%;
+}
+
+textarea {
+  resize: none;
+}
+
+#sendbutton {
+  text-align: left;
+  background-color: #3b4a75;
+  width: min-content;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+#sendbutton:hover {
+  box-shadow: 1px 1px 3px black;
+  transition-duration: 175ms;
+}
+
 /*------------NavBar-----------*/
 a {
   font-size: 25px;
@@ -48,7 +88,7 @@ a {
   padding: 10px 10px;
   text-decoration: none;
   top: 0;
-  height: 34%;
+  height: auto;
   margin: 0;
   top: 0;
   bottom: 0;

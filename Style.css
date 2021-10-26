@@ -8,30 +8,8 @@
     margin: 0;
     flex-direction:column;
 }
-.title1 {
-    font-size: 58px;
-    font-weight: bold;
-    margin: 0;
-    text-align: center;
-}
-  .title2 {
-    color: rgba(255, 255, 255, .5);
-    font-size: 40px;
-    letter-spacing: 3px;
-    margin: 10px 0 0 0;
-    font-weight: normal;
-    text-align: center;
-  }
 
-  .title3 {
-    color: rgba(255, 255, 255, .5);
-    font-size: 20px;
-    margin: 10px 0 0 0;
-    font-weight: normal;
-    text-align: center;
-  }
-
-   .content_description{
+.content_description{
      font-size:30px;
      flex-direction:column;
      display:flex;
@@ -181,4 +159,27 @@ a {
     background-position: center center;
     transition: filter 0.5s ease;
     filter: grayscale(75%);
+}
+
+.page-transition1 img{
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    right: 0.5%;
+}
+
+.page-transition1:hover img{
+    content: url("Images/arrow_black_rotated.png");
+
+}
+
+.page-transition2 img{
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 0.5%
+}
+
+.page-transition2:hover img{
+    content: url("Images/arrow_black.png");
 }

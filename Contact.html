@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vertical Satellite - About Us</title>
+    <title>VerticalSatellite</title>
     <link rel="stylesheet" href="Style.css" />
   </head>
   <div class="menu">
@@ -14,8 +14,8 @@
     <a id="a4" href="Contact.html">CONTACT</a>
   </div>
   <body class="cntBody">
-    <h1>Contact Us!</h1>
-    <div>
+    <div class="cntTopLayer">
+      <h1>Contact Us!</h1>
       <p>
         If you are interested in partnership, if you are looking for more
         information, or for any other queries, send us an email!
@@ -24,10 +24,16 @@
     <div class="cntCore">
       <div style="text-align: left">
         <p>Name:</p>
-        <input type="textfield" />
+        <input type="textfield" placeholder="Name" id="cntName" />
         <p>Message:</p>
       </div>
-      <textarea id="w3review" name="w3review" rows="30" cols="55"></textarea>
+      <textarea
+        id="cntMessage"
+        name="cntMessage"
+        rows="30"
+        cols="55"
+        placeholder="enter your message here..."
+      ></textarea>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1633.3881296218271!2d-75.6805759539724!3d45.42095187360135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57a01c13e73f9079!2sSTEM%20Complex%20(STM)!5e0!3m2!1sen!2sca!4v1634409840433!5m2!1sen!2sca"
         width="600"
@@ -36,7 +42,14 @@
         allowfullscreen=""
         loading="lazy"
       ></iframe>
-      <p id="sendbutton">send</p>
+      <br />
+      <button
+        id="sendbutton"
+        onclick="javascript:window.location='mailto:'+'mfore048@uOttawa.ca'+'?subject='+cntNm+'&body='+cntTXT"
+      >
+        Send
+      </button>
     </div>
+    <script src="Main.js"></script>
   </body>
 </html>

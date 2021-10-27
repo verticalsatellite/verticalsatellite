@@ -1,2 +1,5 @@
 // JavaScript source code
-Var a = 1;
+const cntNm = document.getElementById("cntName");
+console.log(cntNm)
+const cntTXT = document.getElementById('cntMessage');
+console.log(cntTXT)

@@ -45,6 +45,10 @@ body {
   padding: 0;
 }
 
+.cntTopLayer {
+  background-image: url(Images/satellite.png);
+}
+
 .cntBody {
   text-align: center;
   margin-left: 50px;
@@ -63,14 +67,16 @@ textarea {
 }
 
 #sendbutton {
-  text-align: left;
+  float: left;
   background-color: #3b4a75;
+  color: white;
   width: min-content;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 4px;
   padding-right: 4px;
   border-radius: 4px;
+  transition-duration: 175ms;
 }
 
 #sendbutton:hover {

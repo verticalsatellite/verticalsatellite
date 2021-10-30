@@ -1,10 +1,28 @@
 STYLE GUIDELINES
-Color theme: Scale of bluish-grays 
+OVERALL LOOK 
+Minimalistic yet attractive and techy style.
+
+COLOR THEME:
+              Scale of bluish-grays 
               - #8790A8: "Dark purple gray"
               - #3B4A75: "Blue"
               - #C5D7DB: "Gray"
-Typography: Roboto
+              - linear-gradient(-20deg, #2b5876 0%, #4e4376 100%)
+              - White
+              - Gray
+TYPOGRAPHY: Roboto
 
-Company Name: BOLD/UPPER CASE->Sesigned logotype  
+COMPANY NAME: BOLD/UPPER CASE
 All titles in uppercase
-When you pass the mouse through the menu or a title it gets shadowed 
+
+LINKS AND BUTTOMS
+The links will be shaped as buttoms and When you pass the mouse through them it will get shadowed. 
+
+LINES:
+Lines to highlight text under some circumstances
+
+BOXES:
+Boxes with round corners to portray the content description.
+
+ICONOGRAPHY:
+- Images according to the different sections. In time-line the images appear as you go through them.

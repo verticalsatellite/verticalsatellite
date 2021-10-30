@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 html{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.15;
 }
 body{
         background: #3B4A75;
         color: #ffff;
         line-height: 1.5;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         padding: 0;
         margin: 0;
 }
@@ -41,7 +41,7 @@ h5,
 h6{
     padding: 0;
     margin: 0 0 15px 0;
-    color: #333333;
+    color: #000000;
     font-weight: 700;
 }
 img{
@@ -67,7 +67,7 @@ img{
     font-size: 35px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #000000;
+    color: #ffffff;
     margin: 0 0 5px;
     position: relative;
 }
@@ -224,4 +224,35 @@ margin-bottom: 0;
         max-width: 1140px;
     }
    
+}
+
+a {
+    font-size: 25px;
+    color:white; 
+    background:#3B4A75;
+    display:inline-flex;
+    border:0px;
+    padding:10px 10px;
+    text-decoration:none;
+    top:0;
+    height:34%;
+    margin:0;
+    top:0;   
+    bottom:0;
+   }
+#a1:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black;  
+}
+#a2:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+#a3:hover{  
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
+}
+#a4:hover{
+    text-align: center;
+    box-shadow:3px 3px 5px black; 
 }

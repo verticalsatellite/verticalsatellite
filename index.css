@@ -4,6 +4,9 @@
     color: #ffff;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    flex-direction:column;
 }
 
   /*------------NavBar-----------*/
@@ -39,6 +42,13 @@ a {
 }
 
   /*------------Landing-----------*/
+  .TITLE{
+    color:white; 
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center
+  }
 
    .content_description{
      font-size:30px;
@@ -46,9 +56,7 @@ a {
      display:flex;
 }
 
-.header {
-    background-image: url("Images/chip.jpg");
-    font-size: 60px;
+section {
     min-height:100vh;
     display:flex;
     justify-content:center;
@@ -64,10 +72,13 @@ section:nth-child(3){
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
-section .container_reveal{
+section .container{
     margin:100px;
 }
 
+section h1{
+    font-size:100px;
+}
 
 section h2{
     font-size:60px;

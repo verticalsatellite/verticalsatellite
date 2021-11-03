@@ -7,17 +7,19 @@ html{
     font-family: 'Roboto', sans-serif;
     line-height: 1.15;
 }
-body{
-        background:#3B4A75;
-        color: #ffff;
-        line-height: 1.5;
-        font-family: 'Roboto', sans-serif;
-        padding: 0;
-        margin: 0;
-        flex-direction:column;
+body {
+    background-size: cover;
+    background-color: #3B4A75 ;
+    color: #ffff;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    flex-direction:column;
+    overflow-x: hidden;
 }
-  /*------------NavBar-----------*/
-  a {
+    /*------------NavBar-----------*/
+a {
     font-size: 25px;
     color:white; 
     background:#3B4A75;
@@ -146,7 +148,7 @@ img{
 }
 
 .team .team-content{
-    padding: 80px 20px 20px 20px;
+    padding: 77px 20px 20px 20px;
     margin-top: -80px;
     text-align: center;
     background: #f3f4fa;
@@ -171,7 +173,7 @@ margin-bottom: 0;
 .team .team-content p{
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 20px;
 }
 .team .team-social{
     position: absolute;
@@ -207,17 +209,11 @@ margin-bottom: 0;
 .team .team-social a.social-tw{
     background: #00acee;
 }
-.team .team-social a.social-fb{
-    background: #3b5998;
-}
 .team .team-social a.social-li{
     background: #0e76a8;
 }
-.team .team-social a.social-in{
-    background: #3f729b;
-}
-.team .team-social a.social-yt{
-    background: #c4302b;
+.team .team-social a.social-gi{
+    background: #000000;
 }
 .team .team-social a:last-child{
     margin-right: 0;
@@ -259,34 +255,9 @@ margin-bottom: 0;
     }
    
 }
-
-a {
-    font-size: 25px;
-    color:white; 
-    background:#3B4A75;
-    display:inline-flex;
-    border:0px;
-    padding:10px 10px;
-    text-decoration:none;
-    top:0;
-    height:34%;
-    margin:0;
-    top:0;   
-    bottom:0;
-   }
-#a1:hover{
-    text-align: center;
-    box-shadow:3px 3px 5px black;  
-}
-#a2:hover{
-    text-align: center;
-    box-shadow:3px 3px 5px black; 
-}
-#a3:hover{  
-    text-align: center;
-    box-shadow:3px 3px 5px black; 
-}
-#a4:hover{
-    text-align: center;
-    box-shadow:3px 3px 5px black; 
+body {
+    background-image: url("Images/tech.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3B4A75 ;
 }

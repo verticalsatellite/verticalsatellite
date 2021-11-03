@@ -47,7 +47,7 @@ a {
     box-shadow:3px 3px 5px black; 
 }
 
-  /*------------Future-----------*/
+/*------------Future-----------*/
 #timeline{
     display: flex;
     background-color: #3B4A75;
@@ -146,8 +146,8 @@ a {
 .timeline-year h1{
     font-size: 1.628rem;
     line-height: 1.25;
-
 }
+
 .timeline-bg{
     transform: translate3d(0,0,0);
     position: absolute;
@@ -183,3 +183,34 @@ a {
 .page-transition2:hover img{
     content: url("Images/arrow_black.png");
 }
+
+/*------------Footer-----------*/
+
+.footer {
+    position: absolute;
+    overflow: hidden;
+    margin-top: auto;
+    background-color: black;
+  }
+
+  .company-name-footer{
+    display: block;
+    margin:  auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .footer-content-social{
+    position: absolute;
+    left: 0;
+    bottom: 20;
+
+  }
+
+  .footer-content-pages{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+  }

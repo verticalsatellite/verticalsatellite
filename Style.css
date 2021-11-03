@@ -146,8 +146,8 @@ a {
 .timeline-year h1{
     font-size: 1.628rem;
     line-height: 1.25;
-
 }
+
 .timeline-bg{
     transform: translate3d(0,0,0);
     position: absolute;
@@ -187,29 +187,29 @@ a {
 /*------------Footer-----------*/
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: auto;
     background-color: black;
   }
 
   .company-name-footer{
-    position: fixed;
+    display: block;
+    margin:  auto;
+    position: absolute;
     left: 0;
     bottom: 0;
   }
 
   .footer-content-social{
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 20;
 
   }
 
   .footer-content-pages{
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
 

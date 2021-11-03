@@ -135,7 +135,7 @@ img{
     max-width: 100%;
 }
 .team{
-    margin-bottom:30px ;
+    margin-bottom:30% ;
 }
 .team .team-img{
     position: relative;
@@ -143,16 +143,18 @@ img{
     text-align: center;
 }
 .team .team-img img{
-    width: 255px;
-    height: 255px;
+    width: 290px;
+    height: 265px;
 }
 
-.team .team-content{
-    padding: 77px 20px 20px 20px;
-    margin-top: -80px;
-    text-align: center;
-    background: #f3f4fa;
+.team-content{
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: auto;
     border-radius: 10px;
+    background-color: #ffffff;
+    
 }
 .team .team-content h2{
 font-size: 25px;
@@ -165,10 +167,10 @@ letter-spacing: 2px;
 }
 .team .team-content h4{
     font-size: 16px;
-font-weight: 300;
-letter-spacing: 1px;
-font-style: italic;
-margin-bottom: 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-bottom: 0;
 }
 .team .team-content p{
     font-size: 16px;

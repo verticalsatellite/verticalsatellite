@@ -1,0 +1,126 @@
+/*--------General elements-----------*/
+body {
+  color: #ffff;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(/Images/Orbit.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content_description {
+  font-size: 30px;
+  flex-direction: column;
+  display: flex;
+}
+
+/*------------NavBar-----------*/
+a {
+  font-size: 25px;
+  color: white;
+  background: #3b4a75;
+  display: inline-flex;
+  border: 0px;
+  padding: 10px 10px;
+  text-decoration: none;
+  top: 0;
+  height: 34%;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  text-align: left;
+}
+#a1:hover {
+  text-align: center;
+  box-shadow: 3px 3px 5px black;
+  transition-duration: 175ms;
+}
+#a2:hover {
+  text-align: center;
+  box-shadow: 3px 3px 5px black;
+  transition-duration: 175ms;
+}
+#a3:hover {
+  text-align: center;
+  box-shadow: 3px 3px 5px black;
+  transition-duration: 175ms;
+}
+#a4:hover {
+  text-align: center;
+  box-shadow: 3px 3px 5px black;
+  transition-duration: 175ms;
+}
+
+#NavBar {
+  background-color: #3b4a75;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 3px 3px 5px black;
+}
+
+/*------------Contact-----------*/
+section {
+  width: 80%;
+  height: auto;
+  border-left: 10%;
+  border-right: 10%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  background-color: #3b4a75;
+  margin: auto;
+  background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+#email {
+  margin: 30px;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  height: 472px;
+  width: 472px;
+}
+
+#stemMap {
+  margin: 30px;
+  height: 472px;
+  width: 472px;
+}
+
+#sendButton {
+  background-color: #c5d7db;
+  align-self: flex-start;
+}
+
+/*------------Footer-----------*/
+
+.footer {
+  position: absolute;
+  overflow: hidden;
+  margin-top: auto;
+  background-color: #c5d7db;
+}
+
+.company-name-footer {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-content-social {
+  position: absolute;
+  left: 0;
+  bottom: 20;
+}
+
+.footer-content-pages {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

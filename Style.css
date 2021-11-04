@@ -76,7 +76,7 @@ header::after{
     width: 0%;
     background: #ffff;
     position: absolute;
-    top: 0;
+    bottom:-8px;
   }
 
   nav a:hover::before{

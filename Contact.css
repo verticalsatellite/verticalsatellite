@@ -62,6 +62,7 @@ a {
   text-align: left;
   font-family: "Roboto", sans-serif;
   box-shadow: 3px 3px 5px black;
+  margin-bottom: 45px;
 }
 
 /*------------Contact-----------*/
@@ -71,10 +72,18 @@ section {
   border-left: 10%;
   border-right: 10%;
   padding-bottom: 1%;
-  padding-top: 2%;
+  padding-top: 1%;
   background-color: #3b4a75;
   margin: auto;
   background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+#cntTitle {
+  font-size: 300%;
+}
+
+#cntText {
+  font-size: 150%;
 }
 
 #email {
@@ -92,8 +101,11 @@ section {
 }
 
 #sendButton {
-  background-color: #c5d7db;
+  background-color: #c7c5db;
   align-self: flex-start;
+  border-radius: 10px;
+  position: relative;
+  right: 616px;
 }
 
 /*------------Footer-----------*/

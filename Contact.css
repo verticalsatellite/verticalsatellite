@@ -25,6 +25,7 @@ header {
   background: #3b4a75;
   color: #ffff;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 1%;
 }
 
 header::after {
@@ -92,11 +93,11 @@ section {
   height: auto;
   border-left: 10%;
   border-right: 10%;
-  padding-bottom: 1%;
-  padding-top: 1%;
+  padding-top: 0.05%;
   background-color: #3b4a75;
   margin: auto;
   background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  box-shadow: 3px 3px 5px black;
 }
 
 #cntTitle {
@@ -113,20 +114,26 @@ section {
   font-family: "Roboto", sans-serif;
   height: 472px;
   width: 472px;
+  position: relative;
 }
 
 #stemMap {
   margin: 30px;
   height: 472px;
   width: 472px;
+  position: relative;
 }
 
-#sendButton {
-  background-color: #c7c5db;
-  align-self: flex-start;
-  border-radius: 10px;
-  position: relative;
-  right: 616px;
+#sendEmail {
+  background-color: #004d4d;
+  font-size: 135%;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+#sendEmail:hover {
+  background-color: #003333;
+  cursor: pointer;
 }
 
 /*------------Footer-----------*/

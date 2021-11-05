@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VerticalSatellite</title>
     <link rel="stylesheet" href="Contact.css" />
+    <script src="Contact.js"></script>
   </head>
   <header>
     <div class="NavBar">
@@ -28,20 +29,24 @@
         If you have any queries, concerns or proposals of any kind, please send
         us an email below!
       </p>
-      <textarea
-        id="email"
-        name="email"
-        rows="25"
-        cols="55"
-        placeholder="Enter your text here"
-      ></textarea>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1633.3881296218271!2d-75.6805759539724!3d45.42095187360135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57a01c13e73f9079!2sSTEM%20Complex%20(STM)!5e0!3m2!1sen!2sca!4v1634409840433!5m2!1sen!2sca"
-        id="stemMap"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-      <button id="sendButton">Send</button>
+      <div>
+        <textarea
+          id="email"
+          name="email"
+          rows="25"
+          cols="55"
+          placeholder="Enter your text here"
+        ></textarea>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1633.3881296218271!2d-75.6805759539724!3d45.42095187360135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57a01c13e73f9079!2sSTEM%20Complex%20(STM)!5e0!3m2!1sen!2sca!4v1634409840433!5m2!1sen!2sca"
+          id="stemMap"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div id="sendEmail">
+        <a onclick="sendMail()">Send</a>
+      </div>
     </section>
 
     <div class="footer">

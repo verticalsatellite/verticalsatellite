@@ -102,6 +102,18 @@ section {
 
 #cntTitle {
   font-size: 300%;
+  margin-bottom: 0px;
+}
+
+#block {
+  height: 5px;
+  width: 50px;
+  background-color: #50c5fc;
+  position: relative;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 20px;
+  right: 20px;
 }
 
 #cntText {

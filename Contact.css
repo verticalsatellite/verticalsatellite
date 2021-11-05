@@ -21,50 +21,71 @@ body {
 }
 
 /*------------NavBar-----------*/
-a {
-  font-size: 25px;
-  color: white;
+header {
   background: #3b4a75;
-  display: inline-flex;
-  border: 0px;
-  padding: 10px 10px;
-  text-decoration: none;
-  top: 0;
-  height: 34%;
-  margin: 0;
-  top: 0;
-  bottom: 0;
-  text-align: left;
-}
-#a1:hover {
-  text-align: center;
-  box-shadow: 3px 3px 5px black;
-  transition-duration: 175ms;
-}
-#a2:hover {
-  text-align: center;
-  box-shadow: 3px 3px 5px black;
-  transition-duration: 175ms;
-}
-#a3:hover {
-  text-align: center;
-  box-shadow: 3px 3px 5px black;
-  transition-duration: 175ms;
-}
-#a4:hover {
-  text-align: center;
-  box-shadow: 3px 3px 5px black;
-  transition-duration: 175ms;
-}
-
-#NavBar {
-  background-color: #3b4a75;
-  text-align: left;
+  color: #ffff;
   font-family: "Roboto", sans-serif;
-  box-shadow: 3px 3px 5px black;
-  margin-bottom: 45px;
 }
 
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.NavBar {
+  width: 80%;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 75px;
+  padding-top: 10px;
+  position: relative;
+}
+
+nav a {
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #8790a8;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  width: 0%;
+  background: #ffff;
+  position: absolute;
+  bottom: -8px;
+}
+
+nav a:hover::before {
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+}
 /*------------Contact-----------*/
 section {
   width: 80%;

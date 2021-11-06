@@ -86,6 +86,12 @@ header::after{
 #timeline:hover .timeline-item{
     width: 23.3333%;
 }
+.page1{
+  position: absolute;
+}
+.page2{
+  position: absolute;
+}
 
 .timeline-item{
     transform: translate3d(0,0,0);
@@ -244,3 +250,17 @@ header::after{
     bottom: 0;
 
   }
+
+.slide-in{
+  animation: slide-in 0.5s ease forwards;
+}
+
+@keyframes slide-in{
+  from{
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  to{
+    transform: translateX(0%);
+  }
+}

@@ -9,12 +9,6 @@
     flex-direction:column;
 }
 
-.content_description{
-     font-size:30px;
-     flex-direction:column;
-     display:flex;
-}
-
   /*------------NavBar-----------*/
 header{
     background: #3B4A75;

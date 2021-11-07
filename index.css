@@ -28,6 +28,8 @@ header::after{
 .logo{
     float: left;
     padding: 10px 0;
+    width: 20%;
+    height:20%; 
   }
 
 nav{

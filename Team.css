@@ -196,9 +196,6 @@ letter-spacing: 2px;
     transition: all .3s;
     margin-top: 50px;
 }
-.team .team-social a.social-tw{
-    background: #00acee;
-}
 .team .team-social a.social-li{
     background: #0e76a8;
 }

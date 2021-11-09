@@ -3,21 +3,31 @@
     <head>
         <title>VerticalSatellite</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="transition.css">
         <script src="style.js"></script>
     </head>
 
-    <body>
-        <div id="NavBar">
-            <div class="NavBar">
-                <a id="a1" href="index.html">HOME</a>
-                <a id="a2" href="Future.html">VISION</a>
-                <a id="a3" href="Team.html">TEAM</a>
-                <a id="a4" href="Contact.html">CONTACT</a>
-            </div>
+    <header>
+        <div class="NavBar">
+            <img src="Images/Logo-2.png" alt="Logo" class="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Future.html">Vision</a></li>
+                    <li><a href="Team.html">Team</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
         </div>
+    </header>
+
+    <body>
+        <div class="transition transition-1 is-active"></div>
      
         <div class="header">
-        <h1 >VerticalSatellite</h1>
+        <img src="Images/Logo.png" alt="Header" class="header">
         </div>
         <section>
         <div class="container reveal">
@@ -54,6 +64,6 @@
             </div>
         </section>
         
-
+        <script src="future.js"></script>
     </body>
 </html>

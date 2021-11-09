@@ -65,3 +65,19 @@
 .transition-4.is-active{
     top: 0;
 }
+
+.transition-5{
+    position: fixed;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 101;
+    background-color:#8790A8;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+}
+
+.transition-5.is-active{
+    bottom: 0;
+}

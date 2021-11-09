@@ -7,7 +7,7 @@ body {
   margin: 0;
   flex-direction: column;
   text-align: center;
-  background-image: url(/Images/Orbit.jpg);
+  background-image: url("Images/Orbit.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

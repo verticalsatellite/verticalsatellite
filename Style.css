@@ -86,12 +86,6 @@ header::after{
 #timeline:hover .timeline-item{
     width: 23.3333%;
 }
-.page1{
-  position: absolute;
-}
-.page2{
-  position: absolute;
-}
 
 .timeline-item{
     transform: translate3d(0,0,0);

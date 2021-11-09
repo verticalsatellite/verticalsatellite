@@ -15,75 +15,78 @@ body {
     padding: 0;
     margin: 0;
     flex-direction:column;
-    overflow-x: hidden;
+    overflow-x: hidden;   
 }
+
     /*------------NavBar-----------*/
     header{
-    background: #3B4A75;
-    color: #ffff;
-
-}
-
-header::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-  .NavBar{
-      width: 80%;
-      margin: 0 auto;
-  }
-  .logo{
-    float: left;
-    padding: 10px 0;
-  }
-
-  nav{
-    float: right;
+        background: #3B4A75;
+        color: #ffff;
+        font-family: 'Roboto', sans-serif;
     
-  }
-
-  nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav li{
-    display: inline-block;
-    margin-left: 75px;
-    padding-top: 10px;
-    position: relative;
-  }
-
-  nav a{
-    color: #ffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-
-  nav a:hover{
-    color: #8790A8;
-    text-decoration: none;
-  }
-
-  nav a::before{
-    content: "";
-    display: block;
-    width: 0;
-    height: 5px;
-    width: 0%;
-    background: #ffff;
-    position: absolute;
-    bottom:-8px;
-  }
-
-  nav a:hover::before{
-    width: 100%;
-    transition: all 0.25s ease-in-out;
-  }
+    }
+    
+    header::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .NavBar{
+          width: 80%;
+          margin: 0 auto;
+      }
+    .logo{
+        float: left;
+        padding: 0px 0;
+        width: auto;
+        height: auto;
+      }
+    
+    nav{
+        float: right;
+        
+      }
+    
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+    nav li{
+        display: inline-block;
+        margin-left: 75px;
+        padding-top: 4%;
+        position: relative;
+      }
+    
+    nav a{
+        color: #ffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    
+    nav a:hover{
+        color: #8790A8;
+        text-decoration: none;
+      }
+    
+    nav a::before{
+        content: "";
+        display: block;
+        width: 0;
+        height: 5px;
+        width: 0%;
+        background: #ffff;
+        position: absolute;
+        bottom:-8px;
+      }
+    nav a:hover::before{
+        width: 100%;
+        transition: all 0.25s ease-in-out;
+      }
 
 
   /*------------Team-----------*/

@@ -135,7 +135,7 @@ nav a:hover::before{
 }
 
 .header {
-    background-image: url("Images/chip.jpg");
+    background-image: url("Images/satellite.png");
     font-size: 60px;
     min-height:100vh;
     display:flex;

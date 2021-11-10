@@ -187,7 +187,7 @@ nav a:hover::before{
     background-size: cover;
     background-position: center center;
     transition: filter 0.5s ease;
-    filter: grayscale(75%);
+    filter: grayscale(90%);
 }
 
 .page-transition1 img{

@@ -5,10 +5,10 @@
     right: 0;
     bottom: 0;
     z-index: 101;
-    background-color:#8790A8;
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     opacity: 0;
     pointer-events: none;
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .transition-1.is-active{
@@ -24,9 +24,9 @@
     right: 0;
     bottom: 0;
     z-index: 101;
-    background-color:#8790A8;
+    background:linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     pointer-events: none;
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .transition-2.is-active{
@@ -41,9 +41,9 @@
     right: 0;
     bottom: 0;
     z-index: 101;
-    background-color:#8790A8;
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     pointer-events: none;
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .transition-3.is-active{
@@ -57,9 +57,9 @@
     right: 0;
     height: 100%;
     z-index: 101;
-    background-color:#8790A8;
+    background:linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     pointer-events: none;
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .transition-4.is-active{
@@ -73,9 +73,9 @@
     right: 0;
     height: 100%;
     z-index: 101;
-    background-color:#8790A8;
+    background:linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
     pointer-events: none;
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .transition-5.is-active{

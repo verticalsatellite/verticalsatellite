@@ -83,13 +83,13 @@ nav a:hover::before{
 }
 
 #timeline:hover .timeline-item{
-    width: 30%;
+    width: 23.3333%;
 }
 
 .timeline-item{
     transform: translate3d(0,0,0);
     position: relative;
-    width: 50%;
+    width: 25%;
     height: 100vh;
     min-height: 600px;
     overflow: hidden;

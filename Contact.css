@@ -98,6 +98,7 @@ section {
   margin: auto;
   background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
   box-shadow: 3px 3px 5px black;
+  opacity: 95%;
 }
 
 #cntTitle {
@@ -146,33 +147,4 @@ section {
 #sendEmail:hover {
   background-color: #003333;
   cursor: pointer;
-}
-
-/*------------Footer-----------*/
-
-.footer {
-  position: absolute;
-  overflow: hidden;
-  margin-top: auto;
-  background-color: #c5d7db;
-}
-
-.company-name-footer {
-  display: block;
-  margin: auto;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.footer-content-social {
-  position: absolute;
-  left: 0;
-  bottom: 20;
-}
-
-.footer-content-pages {
-  position: absolute;
-  right: 0;
-  bottom: 0;
 }

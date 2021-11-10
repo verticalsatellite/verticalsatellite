@@ -147,32 +147,3 @@ section {
   background-color: #003333;
   cursor: pointer;
 }
-
-/*------------Footer-----------*/
-
-.footer {
-  position: absolute;
-  overflow: hidden;
-  margin-top: auto;
-  background-color: #c5d7db;
-}
-
-.company-name-footer {
-  display: block;
-  margin: auto;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.footer-content-social {
-  position: absolute;
-  left: 0;
-  bottom: 20;
-}
-
-.footer-content-pages {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}

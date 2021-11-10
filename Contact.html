@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VerticalSatellite</title>
     <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="transition.css">
     <script src="Contact.js"></script>
   </head>
   <header>
     <div class="NavBar">
-      <img src="Images/logo.png" alt="Logo" class="logo" />
+      <img src="Images/Logo-2.png" alt="Logo" class="logo" />
 
       <nav>
         <ul>
@@ -23,8 +24,10 @@
     </div>
   </header>
   <body>
+    <div class="transition transition-5 is-active"></div>
     <section>
       <h1 id="cntTitle">CONTACT US</h1>
+      <div id="block"></div>
       <p id="cntText">
         If you have any queries, concerns or proposals of any kind, please send
         us an email below!
@@ -44,7 +47,7 @@
           loading="lazy"
         ></iframe>
       </div>
-      <div id="sendEmail">
+      <div id="sendEmail" onclick="sendMail()">
         <a onclick="sendMail()">Send</a>
       </div>
     </section>
@@ -69,5 +72,6 @@
         Stay up to date on the latest from VerticalSatellite
       </p>
     </div>
+    <script src="future.js"></script>
   </body>
 </html>

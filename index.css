@@ -115,6 +115,7 @@ nav a:hover::before{
     padding: 0px;
     font-size:45px;
     margin-bottom:30%;
+    background-color: #8790A8;
   
 }
 .work-header{
